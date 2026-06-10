@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://azat-studio.techsoftx.uz/sitemap.xml

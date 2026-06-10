@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                    // Zamonaviy JavaScript output
+    "module": "ESNext",                    // Vite / Bun bilan mos
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,                      // faqat TS fayllar
+    "skipLibCheck": true,                  // node_modules typing xatolarini e’tiborsiz qoldiradi
+    "esModuleInterop": true,               // CommonJS module bilan ishlash uchun
+    "allowSyntheticDefaultImports": true,
+    "strict": true,                        // TypeScript strict mode
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node",            // Node-style imports
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,                        // Bun/Vite build qilishi uchun emit qilmaydi
+    "jsx": "react-jsx",                     // JSX support for React 17+
+    "types": ["vite/client"]               // Vite global types
+  },
+  "include": ["src"],                       // barcha src fayllar
+  "exclude": ["node_modules", "dist"]       // build output va dependencies
+}
